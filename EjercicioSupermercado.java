@@ -14,42 +14,35 @@
 
 import java.util.Scanner;
 
+
 public class EjercicioSupermercado {
     public static void main(String[] args) {
-        
-        
         Scanner tipo = new Scanner(System.in);
-        System.out.println("Ingrese que tipo de empleado es:");
-        System.out.println("1= Repositor \n 2= Cajero \n 3 = Supervisor");
+        System.out.println("Ingrese qué tipo de empleado es:");
+        System.out.println("1= Repositor \n2= Cajero \n3= Supervisor");
 
-        
         int puesto = tipo.nextInt();
-        String cargo = "";
+        String cargo[] = {"Repositor", "Cajero", "Supervisor"};
         int monto = 0;
 
         switch (puesto) {
             case 1:
-                monto = 16000 + (16000 / 10);
-                cargo = "Repositor";
+                monto = 16000 + (16000 / 10); // 16000 + 1600
                 break;
-                case 2:
+            case 2:
                 monto = 26000;
-                cargo = "Cajero";
                 break;
-                case 3:
-                monto = 35000 - ((35000 *11) / 100);
-                cargo = "Supervisor";
+            case 3:
+                monto = 35000 - ((35000 * 11) / 100); // 35000 - 3850
                 break;
-        
             default:
-                monto = 00;
-                break;
+                System.out.println("Opción no válida. Por favor, ingrese un número del 1 al 3.");
+                tipo.close(); // Cerrar el Scanner aquí también puede ser una buena práctica si decides terminar la ejecución.
+                return; // Terminar la ejecución si se introduce una opción no válida.
         }
 
-        System.out.printf("Su cargo es %s y el suledo que le corresponde es de &%d.", cargo, monto);
-
+        System.out.printf("Su cargo es %s y el sueldo que le corresponde es de $%d.%n", cargo[puesto -1], monto);
 
         tipo.close();
     }
-
 }
