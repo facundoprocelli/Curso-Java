@@ -31,6 +31,7 @@ public class VectoresParalelos {
 
             System.out.println("Temepratura Minima");
             minima[i] = teclado.nextDouble();
+            teclado.nextLine();
             if (minima[i] < min)
             {
                 mini = i;
@@ -38,6 +39,7 @@ public class VectoresParalelos {
             }
             System.out.println("Temperatura Maxima: ");
             maxima[i] = teclado.nextDouble();
+            teclado.nextLine();
             if(maxima[i] > max)
             {
                 maxi = i;
