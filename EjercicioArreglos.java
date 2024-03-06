@@ -26,6 +26,7 @@ public class EjercicioArreglos {
 
         int contador = 0;
 
+        // Recorrer y contar 
         for (int i = 0; i < arreglo.length; i++)
         {
             
