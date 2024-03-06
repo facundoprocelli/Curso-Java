@@ -3,6 +3,7 @@
  * Una vez cargados, se encesita que el programa cuente e informa por 
  * pantalla cuántas veces se cargó el numero 3
  */
+package IntroduccionJava;
 
 import java.util.Scanner;
 

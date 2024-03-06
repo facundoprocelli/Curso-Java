@@ -1,3 +1,6 @@
+package IntroduccionJava;
+
+
 import java.util.Scanner;
 
 public class VictorRoblesWeb {

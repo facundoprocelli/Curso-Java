@@ -1,3 +1,6 @@
+package IntroduccionJava;
+
+
 public class ProblemasBasicos {
     
 	public static void main(String args[]){

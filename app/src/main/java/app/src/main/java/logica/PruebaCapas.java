@@ -2,7 +2,7 @@
 package app.src.main.java.logica;
 
 
-import app.src.main.java.gui.Pantalla;;
+import app.src.main.java.gui.Pantalla;
 
 public class PruebaCapas {
 

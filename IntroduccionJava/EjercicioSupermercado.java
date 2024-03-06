@@ -11,6 +11,7 @@
  * Se enceista un programa que, dependiendo del tipo de empleado del que
  * se trate, calcule y miestre por pantalla el correspoendiente sueldo
  */
+package IntroduccionJava;
 
 import java.util.Scanner;
 

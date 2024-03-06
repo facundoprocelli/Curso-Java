@@ -6,6 +6,7 @@
  * Una cez realizado los calculos, se desa mostrar las 3 notas de cada ulimno y el promedio correspondiente recorreindo la matriz
  * 
  */
+package IntroduccionJava;
 
 import java.util.Scanner;
 
