@@ -117,5 +117,14 @@ public class Introduccion {
  *           metodos que no existan en la calse original
  *      *Los objetos de la nueva calse heredan los atributos y los métodos de la case original
  *          Que se denomina superclase.
+ * 
+ * ------------------------Polimorfismo-------------------------
+ * 
+ *      * Como comparten un padre en comun , pueden realizar las mismas acciones 
+ *      * Si vehiculo tiene la funcion estacionar, coche moto y bus la pueden usar ya que son 
+ *          clases hijas del mismo padre
+ *      * Yo puedo a un hijo ponerle las características del padre
+ *          pero a un padre no puedo ponerle las del hijo 
+ * 
  */
 
