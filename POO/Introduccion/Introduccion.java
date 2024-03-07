@@ -103,7 +103,19 @@ public class Introduccion {
  *          -constructor con todos los parámetros 
  * -------------------- Getters y Setters-----------------
  * 
- * Preguntarle un abuena explicacion a chatGPT
+ *      * Getters sirven principalmente para acceder a los datos de un objeto 
+ *      * Setters sirven para añadir o modifcar los datos de un objeto
  * 
+ * 
+ * -------------------------- Herencia -----------------------
+ *
+ *      *Hay clases que comparten gran parte de sus características.
+ *      *El mecanismo conocido con el nombre de herencia permite reutilizar clases.
+ *          Se crea una nueva clase que exteinde la funconalidad de una clase existente 
+ *          sin tener que reescribir el código asociado a esta última.
+ *      *La nueva clase, a la que se denomica sublcase, puede poseer atributos y
+ *           metodos que no existan en la calse original
+ *      *Los objetos de la nueva calse heredan los atributos y los métodos de la case original
+ *          Que se denomina superclase.
  */
 
