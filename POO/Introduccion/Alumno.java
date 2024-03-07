@@ -25,6 +25,42 @@ public class Alumno {
         this.apellido = apellido;
     }
 
+// Getters (extraer)
+
+    public int getId()
+    {
+        return id;
+    }
+
+    public String getNombre()
+    {
+        return nombre;
+    }
+
+    public String getApellido()
+    {
+        return apellido;
+    }
+
+// Setters (ingresar)
+
+    public void setID(int id)
+    {
+        this. id = id;
+    }
+
+    public void setNombre(String nombre)
+    {
+        this.nombre = nombre;
+    }
+    public void setApellido(String apellido)
+    {
+        this.apellido = apellido;
+    }
+
+
+
+    
 // Metodos
     public void mostrarNombre() 
     {

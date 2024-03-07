@@ -10,6 +10,34 @@ public class Introduccion {
         
             //Constructor lleno
         Alumno alu2 = new Alumno(2, "Facundo", "Procelli");
+    
+        // Aplicacion getters
+        System.out.println("La id del alumno 2 es: " + alu2.getId());
+        System.out.println("El nombre del alumno 2 es: " + alu2.getNombre());
+        System.out.println("El apellido del alumno 2 es: " + alu2.getApellido());
+
+            // Aplicacion setters
+        alu1.setID(8);
+        alu1.setNombre("Nicolas");
+        alu1.setApellido("Procelli");
+
+            // Aplicacion getters
+        System.out.println("-------------------------");
+        
+        System.out.println("La id del alumno 1 es: " + alu1.getId());
+        System.out.println("El nombre del alumno 1 es: " + alu1.getNombre());
+        System.out.println("El apellido del alumno 1 es: " + alu1.getApellido());
+        
+        System.out.println("-------------------------");
+        // Modificar datos con setters
+
+        alu2.setID(35);
+
+        System.out.println("La id del alumno 2 es: " + alu2.getId());
+        System.out.println("El nombre del alumno 2 es: " + alu2.getNombre());
+        System.out.println("El apellido del alumno 2 es: " + alu2.getApellido());
+
+
     }
     
 }
@@ -73,7 +101,9 @@ public class Introduccion {
  *      *Generalmente se utilizan dos tipos de constructores
  *          -Cosntructor vacio
  *          -constructor con todos los parámetros 
+ * -------------------- Getters y Setters-----------------
  * 
+ * Preguntarle un abuena explicacion a chatGPT
  * 
  */
 
