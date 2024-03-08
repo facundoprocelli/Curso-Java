@@ -126,5 +126,21 @@ public class Introduccion {
  *      * Yo puedo a un hijo ponerle las características del padre
  *          pero a un padre no puedo ponerle las del hijo 
  * 
+ * 
+ ---------------------------Encapsulamiento--------------------
+*
+ *
+ *      * Encapsulamiento significa reunir a todos los elementos que pueden considerarce
+ *           pertenencientes a una misma entidad, al mismo niel de abrstraccion.
+ *           No se debe confuncir con el principio de Ocultacion
+ *      *Principio de Oucltacion: Cada objeto está aislado y unicamente expone una interfaza 
+ *          a otros obejtos donde especifica cómo pueden interacutar con el. El aislamiento
+ *           protege a las porpiedades de un objeto contra su moficiacción por quien no tenga 
+ *          derecho a acceder a ellas.
+ * 
+ *      *El encapsulamiento permite 3 niveles de acceso:
+ *              Public: Puede ser utilizado desde caulquier parte de la aplicacion
+ *              Private: Solo se puede usar en la calse que esta declarado
+ *              Protected: El acceso solo puede ser utilizado por su misma clase y sus hijos
  */
 
