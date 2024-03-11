@@ -142,5 +142,17 @@ public class Introduccion {
  *              Public: Puede ser utilizado desde caulquier parte de la aplicacion
  *              Private: Solo se puede usar en la calse que esta declarado
  *              Protected: El acceso solo puede ser utilizado por su misma clase y sus hijos
+ *
+ * 
+ * ---------------------------------Clases Abstractas-----------------------
+ * 
+ *      * Son un tipo particular de clase cuyacaracterística es que no pueden ser isntanciadas.
+ *      * Generalmente declara la existencia de métodos pero no su implementacion, conviertiendola asi en clase padre
+ *      * Al menos uno de sus métodos debe ser abstracto (puede tener metodos no abstractos)
+ *      * Sus niveles de visualización debe ser public o protected (no private)
+ *      * Cuando se usan clases abstractas una clase no peude herader de varias clases abstractas a la vez
+ *      * Generlamente las clases abstractas idnican el "ES/SER" de un objeto 
+ * 
+ * 
  */
 
