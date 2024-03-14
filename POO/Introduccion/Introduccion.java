@@ -152,7 +152,20 @@ public class Introduccion {
  *      * Sus niveles de visualización debe ser public o protected (no private)
  *      * Cuando se usan clases abstractas una clase no peude herader de varias clases abstractas a la vez
  *      * Generlamente las clases abstractas idnican el "ES/SER" de un objeto 
- * 
- * 
+ *
+ *
+ *
+ * -----------------------Interfaces ----------------------------------------
+ *
+ *      * Son una colección de métodos abstractos con propiedades (atributos) CONSTANTES
+ *      * Una interfaz solamente puede extender o implementar otras intefaces (la cantidad que quiera)
+ *      * Da a concer qué se debe hacer (métodos) pero sin mostrar su implenetacion(Solo puede tener metodos abstractos)
+ *      * Solo puede tener métodos de accesos público (no pueden ser protected o private)
+ *      * Solo puede tener varibales public static final ( constantes)
+ *      * La palabra "abstract" en la definción de los metodos no es obligatoria
+ *      * Generalmente las interfaces idican que "PUEDE HACER" de un objeto
+ *
+ *
+ *
  */
 
